@@ -9,6 +9,20 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        sleep {
+            bindings = <&kp LG(LC(Q))>;
+            key-positions = <0 11>;
+        };
+
+        open_terminal {
+            bindings = <&kp LC(TILDE)>;
+            key-positions = <10 11>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
