@@ -39,13 +39,10 @@
             #binding-cells = <0>;
             bindings =
                 <&kp LC(TILDE)>,
-                <&macro_wait_time 200>,
                 <&macro_tap>,
                 <&kp U &kp V &kp I &kp C &kp O &kp R &kp N &kp SPACE &kp A &kp P &kp I &kp DOT &kp M &kp A &kp I &kp N &kp COLON &kp A &kp P &kp P &kp SPACE &kp MINUS &kp MINUS &kp R &kp E &kp L &kp O &kp A &kp D &kp RET>,
                 <&macro_tap>,
-                <&kp LC(TILDE)>,
-                <&macro_wait_time 200>,
-                <&kp D &kp R &kp A &kp M &kp A &kp T &kp I &kp Q &kp SPACE &kp MINUS &kp MINUS &kp W &kp A &kp T &kp C &kp H &kp EQUAL &kp DOT &kp SPACE &kp T &kp A &kp S &kp K &kp S &kp RET>;
+                <&kp LC(TILDE) &kp D &kp R &kp A &kp M &kp A &kp T &kp I &kp Q &kp SPACE &kp MINUS &kp MINUS &kp W &kp A &kp T &kp C &kp H &kp EQUAL &kp DOT &kp SPACE &kp T &kp A &kp S &kp K &kp S &kp RET>;
 
             label = "RUN_BACKEND";
         };
